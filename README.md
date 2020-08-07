@@ -22,4 +22,4 @@ pueden ver la aqui gracias a Github Pages :
 
 
 [sneak]: http://devman.me/Sneak/
-[aqui]: gelvezz23.github.io/Sneak/
+[aqui]: http://gelvezz23.github.io/Sneak/
