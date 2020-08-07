@@ -1,0 +1,26 @@
+/** @format */
+/** @format */
+.footer {
+  display: flex;
+  height: 300px;
+  padding: 50px;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: column;
+  top: 100%;
+  width: 100%; }
+
+.footer span {
+  color: #ff5672; }
+
+.footer h5 {
+  color: #707070;
+  font-size: 15px;
+  font-weight: normal; }
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 30px;
+  justify-content: center; }

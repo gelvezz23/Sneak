@@ -1,0 +1,36 @@
+/** @format */
+
+@import './colors.scss';
+
+header {
+	align-items: center;
+	background-color: $bg-color;
+	display: flex;
+	justify-content: center;
+	height: 90vh;
+}
+.header-title {
+	text-align: center;
+	color: $white;
+}
+.header-title h1 {
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+.header-title h5 {
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+.header-content {
+	margin: 30px;
+}
+.header-btn {
+	background-color: $white;
+	border: 1px $bg-color solid;
+	color: $bg-color;
+	cursor: pointer;
+	height: 40px;
+	margin-top: 10px;
+	width: 150px;
+}

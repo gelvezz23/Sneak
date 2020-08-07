@@ -1,0 +1,107 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>SNEAK - creative portoflio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="./css/styles.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+
+		<script src="app.js"></script>
+	</head>
+	<body>
+		<nav>
+			<ul class="menu">
+				<li class="logo">
+					<div>
+						<img class="menu-logo--img" src="./assets/img/logo.png" />
+					</div>
+					<div>
+						<a href="#"
+							>SNEAK
+							<p class="logo--txt-portafolio">CREATIVE PORTOFLIO</p></a
+						>
+					</div>
+				</li>
+
+				<li class="menu-item button"><a class="vinculo" href="#galery">All</a></li>
+				<li class="menu-item"><a class="vinculo" href="#galery">Branding</a></li>
+				<li class="menu-item"><a class="vinculo" href="##galery">Web</a></li>
+				<li class="menu-item"><a class="vinculo" href="##galery">Photography</a></li>
+				<li class="menu-item"><a class="vinculo" href="##galery">App</a></li>
+				<li class="menu-item">
+					<a class="" href="#"><img src="./assets/img/search-icon.png" /></a>
+				</li>
+				<li class="toggle" id="toggle" onclick="actionClick()">
+					<a href="#"><i class="fa fa-bars"></i> </a>
+				</li>
+			</ul>
+		</nav>
+		<header>
+			<div class="header-title">
+				<h1>EXPLORE BEYOND HORIZON</h1>
+				<div class="header-content">
+					<h5>Magna mundi referrenfur quo, no rebum dignissim qui.</h5>
+					<h5>Per quodsi accusata id, agam labores.</h5>
+				</div>
+				<button href="#galery" class="header-btn">VIEW OUR WORK</button>
+			</div>
+		</header>
+		<section id="galery" class="galery">
+			<div class="galery-grid">
+				<img src="./assets/img/icon-grid1.png" />
+				<img src="./assets/img/icon-grid2.png" />
+			</div>
+			<div class="galery-nav">
+				<ul>
+					<li class="galery-nav--item btn-galery" onclick="ReLoadImage('all', 0)">
+						<a class="vinculo" href="#galery">All</a>
+					</li>
+					<li class="galery-nav--item" onclick="ReLoadImage('marketing',1)">
+						<a class="vinculo" href="#galery">Branding</a>
+					</li>
+					<li class="galery-nav--item" onclick="ReLoadImage('web',2)">
+						<a class="vinculo" href="#galery">Web</a>
+					</li>
+					<li class="galery-nav--item" onclick="ReLoadImage('Photography',3)">
+						<a class="vinculo" href="#galery">Photography</a>
+					</li>
+					<li class="galery-nav--item" onclick="ReLoadImage('mobil',4)">
+						<a class="vinculo" href="#galery">App</a>
+					</li>
+				</ul>
+			</div>
+			<div class="galery-container">
+				<article>
+					<a href="" target="_blank">
+						<figure>
+							<img src="./assets/img/galery-intro.png" width="300" />
+						</figure>
+					</a>
+				</article>
+				<div id="galery-grid-content"></div>
+			</div>
+			<div class="galery-container--btn">
+				<button class="galery-btn-show">Show Me More</button>
+			</div>
+			<footer class="footer">
+				<h5>&copy; 2016 - <span>Sneak</span> All Right Reserved</h5>
+				<div class="icons">
+					<img src="./assets/icons/icon1.png" />
+					<img src="./assets/icons/icon2.png" />
+					<img src="./assets/icons/icon3.png" />
+					<img src="./assets/icons/icon4.png" />
+					<img src="./assets/icons/icon5.png" />
+				</div>
+			</footer>
+		</section>
+	</body>
+</html>
